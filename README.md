@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>项目展示</title>
+    <title>个人主页</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -21,69 +21,49 @@
         }
 
         main {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
             padding: 20px;
+            text-align: center;
         }
 
-        .project-card {
-            width: 300px;
-            background-color: white;
-            border-radius: 5px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            margin: 20px;
-            overflow: hidden;
+        h2 {
+            color: #333;
         }
 
-        .project-card img {
-            width: 100%;
-            height: auto;
-        }
-
-        .project-card h2 {
-            padding: 10px;
-            margin: 0;
-        }
-
-        .project-card p {
-            padding: 0 10px 10px;
+        p {
             color: #666;
         }
 
-        .project-card a {
-            display: block;
-            background-color: #333;
-            color: white;
-            text-align: center;
-            padding: 10px;
+        .social-links {
+            margin-top: 20px;
+        }
+
+        .social-links a {
+            margin: 0 10px;
+            color: #333;
             text-decoration: none;
         }
 
-        .project-card a:hover {
-            background-color: #555;
+        .social-links a:hover {
+            text-decoration: underline;
         }
     </style>
 </head>
 
 <body>
     <header>
-        <h1>我的项目</h1>
-        <p>以下是我参与的一些项目</p>
+        <h1>张三</h1>
+        <p>Web 开发者 | 开源爱好者</p>
     </header>
     <main>
-        <div class="project-card">
-            <img src="project1.jpg" alt="项目 1">
-            <h2>项目 1</h2>
-            <p>这是一个使用 HTML、CSS 和 JavaScript 构建的静态网站项目，具有响应式设计和交互效果。</p>
-            <a href="https://github.com/yourusername/project1">查看项目</a>
-        </div>
-        <div class="project-card">
-            <img src="project2.jpg" alt="项目 2">
-            <h2>项目 2</h2>
-            <p>这是一个基于 Node.js 和 Express 框架的后端项目，实现了用户认证和数据存储功能。</p>
-            <a href="https://github.com/yourusername/project2">查看项目</a>
-        </div>
+        <section id="about">
+            <h2>关于我</h2>
+            <p>我是一名热衷于 Web 开发的开发者，擅长使用 HTML、CSS 和 JavaScript 构建美观、易用的网站。我喜欢参与开源项目，乐于分享自己的技术和经验。</p>
+        </section>
+        <section class="social-links">
+            <a href="https://github.com/yourusername">GitHub</a>
+            <a href="https://linkedin.com/in/yourusername">LinkedIn</a>
+            <a href="mailto:your.email@example.com">邮箱</a>
+        </section>
     </main>
 </body>
 
