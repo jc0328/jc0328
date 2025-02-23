@@ -1,4 +1,4 @@
-# jc_ricci
+# jc0328
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
 
 <!Home>
@@ -6,7 +6,7 @@
 <HTML>
 <HEAD>
 
-<TITLE>Zuoqin Wang's homepage</TITLE>
+<TITLE>JC's homepage</TITLE>
 
 <META http-equiv=Content-Type content="text/html; charset=utf-8">
 
